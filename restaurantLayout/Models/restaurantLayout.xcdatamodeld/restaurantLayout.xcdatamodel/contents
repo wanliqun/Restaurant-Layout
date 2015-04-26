@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Room" representedClassName="RoomModel" syncable="YES">
+        <attribute name="length" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="width" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="tables" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Table" syncable="YES"/>
+    </entity>
+    <entity name="Table" representedClassName="TableModel" syncable="YES">
+        <attribute name="number" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="opposing" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="seats" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="size" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="x" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <relationship name="room" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Room" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Room" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="Table" positionX="0" positionY="0" width="128" height="165"/>
+    </elements>
+</model>

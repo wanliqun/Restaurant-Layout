@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A10ECE31AE7376F00E07E9B /* RLRoomTableViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A10ECE21AE7376F00E07E9B /* RLRoomTableViewBase.m */; };
+		6A67617E1AE42D54005BB817 /* RLRadioButtonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A67617A1AE42D54005BB817 /* RLRadioButtonGroup.m */; };
+		6A67617F1AE42D54005BB817 /* RLPickerButtonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A67617C1AE42D54005BB817 /* RLPickerButtonGroup.m */; };
+		6A6761861AE42D6D005BB817 /* RLViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6761801AE42D6D005BB817 /* RLViewControllerBase.m */; };
+		6A6761871AE42D6D005BB817 /* RLViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6761821AE42D6D005BB817 /* RLViewBase.m */; };
+		6A6761881AE42D6D005BB817 /* RLStepperGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6761841AE42D6D005BB817 /* RLStepperGroup.m */; };
+		6A67618D1AE42F6C005BB817 /* RLTableSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A67618C1AE42F6C005BB817 /* RLTableSettings.m */; };
+		6A6761971AE48DBB005BB817 /* RLRectangularTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6761961AE48DBB005BB817 /* RLRectangularTableView.m */; };
+		6A67619A1AE48DCC005BB817 /* RLCircularTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6761991AE48DCC005BB817 /* RLCircularTableView.m */; };
+		6A67D9D71AE2A70300B552D4 /* RLCircularRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A67D9D21AE2A70300B552D4 /* RLCircularRadioButton.m */; };
+		6A67D9D81AE2A70300B552D4 /* RLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A67D9D41AE2A70300B552D4 /* RLRadioButton.m */; };
+		6A67D9D91AE2A70300B552D4 /* RLRectangularRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A67D9D61AE2A70300B552D4 /* RLRectangularRadioButton.m */; };
+		6A67D9E21AE32DBD00B552D4 /* RlDragGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A67D9E11AE32DBD00B552D4 /* RlDragGestureRecognizer.m */; };
+		6A67D9E51AE32FAC00B552D4 /* RLDragContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A67D9E41AE32FAC00B552D4 /* RLDragContext.m */; };
+		6A67D9EB1AE331BA00B552D4 /* RLDragDropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A67D9E91AE331BA00B552D4 /* RLDragDropManager.m */; };
+		6A71434E1AE54E9A00C98A55 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ACA493B1ADCD152006A077D /* LaunchScreen.xib */; };
+		6A71434F1AE54E9A00C98A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACA493D1ADCD152006A077D /* Main.storyboard */; };
+		6A7160691AEB6C7B00CD7E69 /* RLSwitchGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7160681AEB6C7B00CD7E69 /* RLSwitchGroup.m */; };
+		6A71606C1AEB710C00CD7E69 /* RLSliderGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A71606B1AEB710C00CD7E69 /* RLSliderGroup.m */; };
+		6A83B90C1ADD768400BF39CD /* RLScrollPagerTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A83B90B1ADD768400BF39CD /* RLScrollPagerTabView.m */; };
+		6A83B90F1ADD81EB00BF39CD /* RLScrollPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A83B90E1ADD81EB00BF39CD /* RLScrollPagerView.m */; };
+		6A83B9151ADE121300BF39CD /* RLRoomsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A83B9141ADE121300BF39CD /* RLRoomsManager.m */; };
+		6A83B9181ADE5BD500BF39CD /* RLRoomCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A83B9171ADE5BD500BF39CD /* RLRoomCanvasViewController.m */; };
+		6A83B91B1ADEB18400BF39CD /* RLInstallationContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A83B91A1ADEB18400BF39CD /* RLInstallationContentViewController.m */; };
+		6A83B9211ADEBEE200BF39CD /* RLEmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A83B9201ADEBEE200BF39CD /* RLEmptySegue.m */; };
+		6A83B9311ADF6F6200BF39CD /* RLInstallationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A83B9301ADF6F6200BF39CD /* RLInstallationTableViewController.m */; };
+		6AAEC1551ADBB0400042A806 /* restaurantLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAEC1541ADBB0400042A806 /* restaurantLayoutTests.m */; };
+		6ACA49141ADC902E006A077D /* RLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA49121ADC902E006A077D /* RLAppDelegate.m */; };
+		6ACA49211ADC9048006A077D /* RLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA491A1ADC9048006A077D /* RLViewController.m */; };
+		6ACA49221ADC9048006A077D /* RLRoomsSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA491C1ADC9048006A077D /* RLRoomsSceneViewController.m */; };
+		6ACA49231ADC9048006A077D /* RLInstallationsSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA491E1ADC9048006A077D /* RLInstallationsSceneViewController.m */; };
+		6ACA49261ADCC675006A077D /* restaurantLayout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA49241ADCC675006A077D /* restaurantLayout.xcdatamodeld */; };
+		6ACA492C1ADCCD6F006A077D /* RLCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA492B1ADCCD6F006A077D /* RLCoreDataStack.m */; };
+		6ACA49421ADCD152006A077D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ACA493F1ADCD152006A077D /* Images.xcassets */; };
+		6ACA49451ADCD1FD006A077D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA49431ADCD1FD006A077D /* main.m */; };
+		6ACA49461ADCD1FD006A077D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6ACA49441ADCD1FD006A077D /* Info.plist */; };
+		6ACA49551ADCEA3B006A077D /* TableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA49541ADCEA3B006A077D /* TableModel.m */; };
+		6ACA49581ADCEA3C006A077D /* RoomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA49571ADCEA3C006A077D /* RoomModel.m */; };
+		6ACA495C1ADCF4CB006A077D /* RLCreateRoomPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA495A1ADCF4CB006A077D /* RLCreateRoomPopupViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AAEC14F1ADBB0400042A806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AAEC12A1ADBB0400042A806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AAEC1311ADBB0400042A806;
+			remoteInfo = restaurantLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03086BC36C98E510FBE7C5D3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6A10ECE11AE7376F00E07E9B /* RLRoomTableViewBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLRoomTableViewBase.h; sourceTree = "<group>"; };
+		6A10ECE21AE7376F00E07E9B /* RLRoomTableViewBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLRoomTableViewBase.m; sourceTree = "<group>"; };
+		6A67617A1AE42D54005BB817 /* RLRadioButtonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLRadioButtonGroup.m; sourceTree = "<group>"; };
+		6A67617B1AE42D54005BB817 /* RLRadioButtonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLRadioButtonGroup.h; sourceTree = "<group>"; };
+		6A67617C1AE42D54005BB817 /* RLPickerButtonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLPickerButtonGroup.m; sourceTree = "<group>"; };
+		6A67617D1AE42D54005BB817 /* RLPickerButtonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLPickerButtonGroup.h; sourceTree = "<group>"; };
+		6A6761801AE42D6D005BB817 /* RLViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLViewControllerBase.m; sourceTree = "<group>"; };
+		6A6761811AE42D6D005BB817 /* RLViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLViewControllerBase.h; sourceTree = "<group>"; };
+		6A6761821AE42D6D005BB817 /* RLViewBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLViewBase.m; sourceTree = "<group>"; };
+		6A6761831AE42D6D005BB817 /* RLViewBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLViewBase.h; sourceTree = "<group>"; };
+		6A6761841AE42D6D005BB817 /* RLStepperGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLStepperGroup.m; sourceTree = "<group>"; };
+		6A6761851AE42D6D005BB817 /* RLStepperGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLStepperGroup.h; sourceTree = "<group>"; };
+		6A6761891AE42D9D005BB817 /* RLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLAppDelegate.h; sourceTree = "<group>"; };
+		6A67618B1AE42F6C005BB817 /* RLTableSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLTableSettings.h; sourceTree = "<group>"; };
+		6A67618C1AE42F6C005BB817 /* RLTableSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLTableSettings.m; sourceTree = "<group>"; };
+		6A6761951AE48DBB005BB817 /* RLRectangularTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLRectangularTableView.h; sourceTree = "<group>"; };
+		6A6761961AE48DBB005BB817 /* RLRectangularTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLRectangularTableView.m; sourceTree = "<group>"; };
+		6A6761981AE48DCC005BB817 /* RLCircularTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLCircularTableView.h; sourceTree = "<group>"; };
+		6A6761991AE48DCC005BB817 /* RLCircularTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLCircularTableView.m; sourceTree = "<group>"; };
+		6A6761A01AE54629005BB817 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		6A6761A21AE546AF005BB817 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		6A67D9D11AE2A70300B552D4 /* RLCircularRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLCircularRadioButton.h; sourceTree = "<group>"; };
+		6A67D9D21AE2A70300B552D4 /* RLCircularRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLCircularRadioButton.m; sourceTree = "<group>"; };
+		6A67D9D31AE2A70300B552D4 /* RLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLRadioButton.h; sourceTree = "<group>"; };
+		6A67D9D41AE2A70300B552D4 /* RLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLRadioButton.m; sourceTree = "<group>"; };
+		6A67D9D51AE2A70300B552D4 /* RLRectangularRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLRectangularRadioButton.h; sourceTree = "<group>"; };
+		6A67D9D61AE2A70300B552D4 /* RLRectangularRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLRectangularRadioButton.m; sourceTree = "<group>"; };
+		6A67D9E01AE32DBD00B552D4 /* RlDragGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RlDragGestureRecognizer.h; sourceTree = "<group>"; };
+		6A67D9E11AE32DBD00B552D4 /* RlDragGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RlDragGestureRecognizer.m; sourceTree = "<group>"; };
+		6A67D9E31AE32FAC00B552D4 /* RLDragContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLDragContext.h; sourceTree = "<group>"; };
+		6A67D9E41AE32FAC00B552D4 /* RLDragContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLDragContext.m; sourceTree = "<group>"; };
+		6A67D9E91AE331BA00B552D4 /* RLDragDropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLDragDropManager.m; sourceTree = "<group>"; };
+		6A67D9EA1AE331BA00B552D4 /* RLDragDropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLDragDropManager.h; sourceTree = "<group>"; };
+		6A7160671AEB6C7B00CD7E69 /* RLSwitchGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLSwitchGroup.h; sourceTree = "<group>"; };
+		6A7160681AEB6C7B00CD7E69 /* RLSwitchGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLSwitchGroup.m; sourceTree = "<group>"; };
+		6A71606A1AEB710C00CD7E69 /* RLSliderGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLSliderGroup.h; sourceTree = "<group>"; };
+		6A71606B1AEB710C00CD7E69 /* RLSliderGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLSliderGroup.m; sourceTree = "<group>"; };
+		6A83B90A1ADD768400BF39CD /* RLScrollPagerTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLScrollPagerTabView.h; sourceTree = "<group>"; };
+		6A83B90B1ADD768400BF39CD /* RLScrollPagerTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLScrollPagerTabView.m; sourceTree = "<group>"; };
+		6A83B90D1ADD81EB00BF39CD /* RLScrollPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLScrollPagerView.h; sourceTree = "<group>"; };
+		6A83B90E1ADD81EB00BF39CD /* RLScrollPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLScrollPagerView.m; sourceTree = "<group>"; };
+		6A83B9121ADE0F3C00BF39CD /* RLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLConstants.h; sourceTree = "<group>"; };
+		6A83B9131ADE121300BF39CD /* RLRoomsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLRoomsManager.h; sourceTree = "<group>"; };
+		6A83B9141ADE121300BF39CD /* RLRoomsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLRoomsManager.m; sourceTree = "<group>"; };
+		6A83B9161ADE5BD500BF39CD /* RLRoomCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLRoomCanvasViewController.h; sourceTree = "<group>"; };
+		6A83B9171ADE5BD500BF39CD /* RLRoomCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLRoomCanvasViewController.m; sourceTree = "<group>"; };
+		6A83B9191ADEB18400BF39CD /* RLInstallationContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLInstallationContentViewController.h; sourceTree = "<group>"; };
+		6A83B91A1ADEB18400BF39CD /* RLInstallationContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLInstallationContentViewController.m; sourceTree = "<group>"; };
+		6A83B91F1ADEBEE200BF39CD /* RLEmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLEmptySegue.h; sourceTree = "<group>"; };
+		6A83B9201ADEBEE200BF39CD /* RLEmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLEmptySegue.m; sourceTree = "<group>"; };
+		6A83B92F1ADF6F6200BF39CD /* RLInstallationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLInstallationTableViewController.h; sourceTree = "<group>"; };
+		6A83B9301ADF6F6200BF39CD /* RLInstallationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLInstallationTableViewController.m; sourceTree = "<group>"; };
+		6AAEC1321ADBB0400042A806 /* restaurantLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = restaurantLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAEC14E1ADBB0400042A806 /* restaurantLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = restaurantLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAEC1531ADBB0400042A806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AAEC1541ADBB0400042A806 /* restaurantLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = restaurantLayoutTests.m; sourceTree = "<group>"; };
+		6ACA49121ADC902E006A077D /* RLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLAppDelegate.m; sourceTree = "<group>"; };
+		6ACA491A1ADC9048006A077D /* RLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLViewController.m; sourceTree = "<group>"; };
+		6ACA491B1ADC9048006A077D /* RLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLViewController.h; sourceTree = "<group>"; };
+		6ACA491C1ADC9048006A077D /* RLRoomsSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLRoomsSceneViewController.m; sourceTree = "<group>"; };
+		6ACA491D1ADC9048006A077D /* RLRoomsSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLRoomsSceneViewController.h; sourceTree = "<group>"; };
+		6ACA491E1ADC9048006A077D /* RLInstallationsSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLInstallationsSceneViewController.m; sourceTree = "<group>"; };
+		6ACA491F1ADC9048006A077D /* RLInstallationsSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLInstallationsSceneViewController.h; sourceTree = "<group>"; };
+		6ACA49251ADCC675006A077D /* restaurantLayout.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = restaurantLayout.xcdatamodel; sourceTree = "<group>"; };
+		6ACA492A1ADCCD6F006A077D /* RLCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLCoreDataStack.h; sourceTree = "<group>"; };
+		6ACA492B1ADCCD6F006A077D /* RLCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLCoreDataStack.m; sourceTree = "<group>"; };
+		6ACA493C1ADCD152006A077D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6ACA493E1ADCD152006A077D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ACA493F1ADCD152006A077D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6ACA49431ADCD1FD006A077D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ACA49441ADCD1FD006A077D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ACA49531ADCEA3B006A077D /* TableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableModel.h; sourceTree = "<group>"; };
+		6ACA49541ADCEA3B006A077D /* TableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableModel.m; sourceTree = "<group>"; };
+		6ACA49561ADCEA3C006A077D /* RoomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomModel.h; sourceTree = "<group>"; };
+		6ACA49571ADCEA3C006A077D /* RoomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomModel.m; sourceTree = "<group>"; };
+		6ACA49591ADCF4CB006A077D /* RLCreateRoomPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLCreateRoomPopupViewController.h; sourceTree = "<group>"; };
+		6ACA495A1ADCF4CB006A077D /* RLCreateRoomPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLCreateRoomPopupViewController.m; sourceTree = "<group>"; };
+		8B1A777175CA23F7FE8D9BFB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A958BF06E1E148138CFFB2FF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AAEC12F1ADBB0400042A806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAEC14B1ADBB0400042A806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A67618A1AE42E56005BB817 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6A67618B1AE42F6C005BB817 /* RLTableSettings.h */,
+				6A67618C1AE42F6C005BB817 /* RLTableSettings.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6A6761911AE48D96005BB817 /* RoomTable */ = {
+			isa = PBXGroup;
+			children = (
+				6A6761951AE48DBB005BB817 /* RLRectangularTableView.h */,
+				6A6761961AE48DBB005BB817 /* RLRectangularTableView.m */,
+				6A6761981AE48DCC005BB817 /* RLCircularTableView.h */,
+				6A6761991AE48DCC005BB817 /* RLCircularTableView.m */,
+				6A10ECE11AE7376F00E07E9B /* RLRoomTableViewBase.h */,
+				6A10ECE21AE7376F00E07E9B /* RLRoomTableViewBase.m */,
+			);
+			path = RoomTable;
+			sourceTree = "<group>";
+		};
+		6A67D9D01AE2A70300B552D4 /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				6A67D9D11AE2A70300B552D4 /* RLCircularRadioButton.h */,
+				6A67D9D21AE2A70300B552D4 /* RLCircularRadioButton.m */,
+				6A67D9D31AE2A70300B552D4 /* RLRadioButton.h */,
+				6A67D9D41AE2A70300B552D4 /* RLRadioButton.m */,
+				6A67D9D51AE2A70300B552D4 /* RLRectangularRadioButton.h */,
+				6A67D9D61AE2A70300B552D4 /* RLRectangularRadioButton.m */,
+			);
+			path = RadioButton;
+			sourceTree = "<group>";
+		};
+		6A67D9DD1AE32A5300B552D4 /* ViewGroup */ = {
+			isa = PBXGroup;
+			children = (
+				6A67617A1AE42D54005BB817 /* RLRadioButtonGroup.m */,
+				6A67617B1AE42D54005BB817 /* RLRadioButtonGroup.h */,
+				6A67617C1AE42D54005BB817 /* RLPickerButtonGroup.m */,
+				6A67617D1AE42D54005BB817 /* RLPickerButtonGroup.h */,
+				6A7160671AEB6C7B00CD7E69 /* RLSwitchGroup.h */,
+				6A7160681AEB6C7B00CD7E69 /* RLSwitchGroup.m */,
+				6A71606A1AEB710C00CD7E69 /* RLSliderGroup.h */,
+				6A71606B1AEB710C00CD7E69 /* RLSliderGroup.m */,
+			);
+			path = ViewGroup;
+			sourceTree = "<group>";
+		};
+		6A67D9DE1AE32A5300B552D4 /* DragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				6A67D9E91AE331BA00B552D4 /* RLDragDropManager.m */,
+				6A67D9EA1AE331BA00B552D4 /* RLDragDropManager.h */,
+				6A67D9E01AE32DBD00B552D4 /* RlDragGestureRecognizer.h */,
+				6A67D9E11AE32DBD00B552D4 /* RlDragGestureRecognizer.m */,
+				6A67D9E31AE32FAC00B552D4 /* RLDragContext.h */,
+				6A67D9E41AE32FAC00B552D4 /* RLDragContext.m */,
+			);
+			path = DragDrop;
+			sourceTree = "<group>";
+		};
+		6A67D9DF1AE32A5300B552D4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6A6761801AE42D6D005BB817 /* RLViewControllerBase.m */,
+				6A6761811AE42D6D005BB817 /* RLViewControllerBase.h */,
+				6A6761821AE42D6D005BB817 /* RLViewBase.m */,
+				6A6761831AE42D6D005BB817 /* RLViewBase.h */,
+				6A6761841AE42D6D005BB817 /* RLStepperGroup.m */,
+				6A6761851AE42D6D005BB817 /* RLStepperGroup.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6A83B9091ADD74F900BF39CD /* ScrollPager */ = {
+			isa = PBXGroup;
+			children = (
+				6A83B90A1ADD768400BF39CD /* RLScrollPagerTabView.h */,
+				6A83B90B1ADD768400BF39CD /* RLScrollPagerTabView.m */,
+				6A83B90D1ADD81EB00BF39CD /* RLScrollPagerView.h */,
+				6A83B90E1ADD81EB00BF39CD /* RLScrollPagerView.m */,
+			);
+			path = ScrollPager;
+			sourceTree = "<group>";
+		};
+		6AAEC1291ADBB0400042A806 = {
+			isa = PBXGroup;
+			children = (
+				6AAEC1341ADBB0400042A806 /* restaurantLayout */,
+				6AAEC1511ADBB0400042A806 /* restaurantLayoutTests */,
+				6AAEC1331ADBB0400042A806 /* Products */,
+				6FB95CE3163E47E59A4DBB1A /* Frameworks */,
+				6BE836E5E4560920CA722F1F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6AAEC1331ADBB0400042A806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AAEC1321ADBB0400042A806 /* restaurantLayout.app */,
+				6AAEC14E1ADBB0400042A806 /* restaurantLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AAEC1341ADBB0400042A806 /* restaurantLayout */ = {
+			isa = PBXGroup;
+			children = (
+				6ACA49431ADCD1FD006A077D /* main.m */,
+				6ACA49441ADCD1FD006A077D /* Info.plist */,
+				6ACA493A1ADCD152006A077D /* Resources */,
+				6AAEC22C1ADBC7AF0042A806 /* Views */,
+				6AAEC22D1ADBC7AF0042A806 /* Vendors */,
+				6AAEC22E1ADBC7AF0042A806 /* Library */,
+				6AAEC22F1ADBC7AF0042A806 /* Models */,
+				6AAEC2311ADBC7AF0042A806 /* Controllers */,
+				6AAEC2321ADBC7AF0042A806 /* Application */,
+			);
+			path = restaurantLayout;
+			sourceTree = "<group>";
+		};
+		6AAEC1511ADBB0400042A806 /* restaurantLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AAEC1541ADBB0400042A806 /* restaurantLayoutTests.m */,
+				6AAEC1521ADBB0400042A806 /* Supporting Files */,
+			);
+			path = restaurantLayoutTests;
+			sourceTree = "<group>";
+		};
+		6AAEC1521ADBB0400042A806 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AAEC1531ADBB0400042A806 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AAEC22C1ADBC7AF0042A806 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A6761911AE48D96005BB817 /* RoomTable */,
+				6A67D9D01AE2A70300B552D4 /* RadioButton */,
+				6A83B9091ADD74F900BF39CD /* ScrollPager */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6AAEC22D1ADBC7AF0042A806 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		6AAEC22E1ADBC7AF0042A806 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6A67618A1AE42E56005BB817 /* Settings */,
+				6A67D9DD1AE32A5300B552D4 /* ViewGroup */,
+				6A67D9DE1AE32A5300B552D4 /* DragDrop */,
+				6A67D9DF1AE32A5300B552D4 /* Base */,
+				6ACA492A1ADCCD6F006A077D /* RLCoreDataStack.h */,
+				6ACA492B1ADCCD6F006A077D /* RLCoreDataStack.m */,
+				6A83B9121ADE0F3C00BF39CD /* RLConstants.h */,
+				6A83B9131ADE121300BF39CD /* RLRoomsManager.h */,
+				6A83B9141ADE121300BF39CD /* RLRoomsManager.m */,
+				6A83B91F1ADEBEE200BF39CD /* RLEmptySegue.h */,
+				6A83B9201ADEBEE200BF39CD /* RLEmptySegue.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		6AAEC22F1ADBC7AF0042A806 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6ACA49241ADCC675006A077D /* restaurantLayout.xcdatamodeld */,
+				6ACA49561ADCEA3C006A077D /* RoomModel.h */,
+				6ACA49571ADCEA3C006A077D /* RoomModel.m */,
+				6ACA49531ADCEA3B006A077D /* TableModel.h */,
+				6ACA49541ADCEA3B006A077D /* TableModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6AAEC2311ADBC7AF0042A806 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6ACA491A1ADC9048006A077D /* RLViewController.m */,
+				6ACA491B1ADC9048006A077D /* RLViewController.h */,
+				6ACA491D1ADC9048006A077D /* RLRoomsSceneViewController.h */,
+				6ACA491C1ADC9048006A077D /* RLRoomsSceneViewController.m */,
+				6ACA491E1ADC9048006A077D /* RLInstallationsSceneViewController.m */,
+				6ACA491F1ADC9048006A077D /* RLInstallationsSceneViewController.h */,
+				6ACA49591ADCF4CB006A077D /* RLCreateRoomPopupViewController.h */,
+				6ACA495A1ADCF4CB006A077D /* RLCreateRoomPopupViewController.m */,
+				6A83B9161ADE5BD500BF39CD /* RLRoomCanvasViewController.h */,
+				6A83B9171ADE5BD500BF39CD /* RLRoomCanvasViewController.m */,
+				6A83B9191ADEB18400BF39CD /* RLInstallationContentViewController.h */,
+				6A83B91A1ADEB18400BF39CD /* RLInstallationContentViewController.m */,
+				6A83B92F1ADF6F6200BF39CD /* RLInstallationTableViewController.h */,
+				6A83B9301ADF6F6200BF39CD /* RLInstallationTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6AAEC2321ADBC7AF0042A806 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6A6761891AE42D9D005BB817 /* RLAppDelegate.h */,
+				6ACA49121ADC902E006A077D /* RLAppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6ACA493A1ADCD152006A077D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6ACA493B1ADCD152006A077D /* LaunchScreen.xib */,
+				6ACA493D1ADCD152006A077D /* Main.storyboard */,
+				6ACA493F1ADCD152006A077D /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6BE836E5E4560920CA722F1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B1A777175CA23F7FE8D9BFB /* Pods.debug.xcconfig */,
+				03086BC36C98E510FBE7C5D3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6FB95CE3163E47E59A4DBB1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A6761A21AE546AF005BB817 /* libPods.a */,
+				6A6761A01AE54629005BB817 /* libPods.a */,
+				A958BF06E1E148138CFFB2FF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AAEC1311ADBB0400042A806 /* restaurantLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AAEC1581ADBB0400042A806 /* Build configuration list for PBXNativeTarget "restaurantLayout" */;
+			buildPhases = (
+				6AAEC12E1ADBB0400042A806 /* Sources */,
+				6AAEC12F1ADBB0400042A806 /* Frameworks */,
+				6AAEC1301ADBB0400042A806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = restaurantLayout;
+			productName = restaurantLayout;
+			productReference = 6AAEC1321ADBB0400042A806 /* restaurantLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AAEC14D1ADBB0400042A806 /* restaurantLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AAEC15B1ADBB0400042A806 /* Build configuration list for PBXNativeTarget "restaurantLayoutTests" */;
+			buildPhases = (
+				6AAEC14A1ADBB0400042A806 /* Sources */,
+				6AAEC14B1ADBB0400042A806 /* Frameworks */,
+				6AAEC14C1ADBB0400042A806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AAEC1501ADBB0400042A806 /* PBXTargetDependency */,
+			);
+			name = restaurantLayoutTests;
+			productName = restaurantLayoutTests;
+			productReference = 6AAEC14E1ADBB0400042A806 /* restaurantLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AAEC12A1ADBB0400042A806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = bindo;
+				TargetAttributes = {
+					6AAEC1311ADBB0400042A806 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					6AAEC14D1ADBB0400042A806 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 6AAEC1311ADBB0400042A806;
+					};
+				};
+			};
+			buildConfigurationList = 6AAEC12D1ADBB0400042A806 /* Build configuration list for PBXProject "restaurantLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AAEC1291ADBB0400042A806;
+			productRefGroup = 6AAEC1331ADBB0400042A806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AAEC1311ADBB0400042A806 /* restaurantLayout */,
+				6AAEC14D1ADBB0400042A806 /* restaurantLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AAEC1301ADBB0400042A806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A71434E1AE54E9A00C98A55 /* LaunchScreen.xib in Resources */,
+				6A71434F1AE54E9A00C98A55 /* Main.storyboard in Resources */,
+				6ACA49461ADCD1FD006A077D /* Info.plist in Resources */,
+				6ACA49421ADCD152006A077D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAEC14C1ADBB0400042A806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AAEC12E1ADBB0400042A806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A83B90C1ADD768400BF39CD /* RLScrollPagerTabView.m in Sources */,
+				6A67D9D71AE2A70300B552D4 /* RLCircularRadioButton.m in Sources */,
+				6ACA49221ADC9048006A077D /* RLRoomsSceneViewController.m in Sources */,
+				6ACA49211ADC9048006A077D /* RLViewController.m in Sources */,
+				6A71606C1AEB710C00CD7E69 /* RLSliderGroup.m in Sources */,
+				6ACA492C1ADCCD6F006A077D /* RLCoreDataStack.m in Sources */,
+				6ACA49581ADCEA3C006A077D /* RoomModel.m in Sources */,
+				6A83B90F1ADD81EB00BF39CD /* RLScrollPagerView.m in Sources */,
+				6ACA495C1ADCF4CB006A077D /* RLCreateRoomPopupViewController.m in Sources */,
+				6A67D9D91AE2A70300B552D4 /* RLRectangularRadioButton.m in Sources */,
+				6A10ECE31AE7376F00E07E9B /* RLRoomTableViewBase.m in Sources */,
+				6A67619A1AE48DCC005BB817 /* RLCircularTableView.m in Sources */,
+				6A67617E1AE42D54005BB817 /* RLRadioButtonGroup.m in Sources */,
+				6ACA49261ADCC675006A077D /* restaurantLayout.xcdatamodeld in Sources */,
+				6A67D9E21AE32DBD00B552D4 /* RlDragGestureRecognizer.m in Sources */,
+				6A67618D1AE42F6C005BB817 /* RLTableSettings.m in Sources */,
+				6A67D9D81AE2A70300B552D4 /* RLRadioButton.m in Sources */,
+				6ACA49141ADC902E006A077D /* RLAppDelegate.m in Sources */,
+				6A67D9E51AE32FAC00B552D4 /* RLDragContext.m in Sources */,
+				6A6761971AE48DBB005BB817 /* RLRectangularTableView.m in Sources */,
+				6A83B9151ADE121300BF39CD /* RLRoomsManager.m in Sources */,
+				6ACA49451ADCD1FD006A077D /* main.m in Sources */,
+				6A6761881AE42D6D005BB817 /* RLStepperGroup.m in Sources */,
+				6A83B9181ADE5BD500BF39CD /* RLRoomCanvasViewController.m in Sources */,
+				6A83B9311ADF6F6200BF39CD /* RLInstallationTableViewController.m in Sources */,
+				6A67D9EB1AE331BA00B552D4 /* RLDragDropManager.m in Sources */,
+				6A6761871AE42D6D005BB817 /* RLViewBase.m in Sources */,
+				6A7160691AEB6C7B00CD7E69 /* RLSwitchGroup.m in Sources */,
+				6A83B91B1ADEB18400BF39CD /* RLInstallationContentViewController.m in Sources */,
+				6A83B9211ADEBEE200BF39CD /* RLEmptySegue.m in Sources */,
+				6A67617F1AE42D54005BB817 /* RLPickerButtonGroup.m in Sources */,
+				6ACA49551ADCEA3B006A077D /* TableModel.m in Sources */,
+				6ACA49231ADC9048006A077D /* RLInstallationsSceneViewController.m in Sources */,
+				6A6761861AE42D6D005BB817 /* RLViewControllerBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAEC14A1ADBB0400042A806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAEC1551ADBB0400042A806 /* restaurantLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AAEC1501ADBB0400042A806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AAEC1311ADBB0400042A806 /* restaurantLayout */;
+			targetProxy = 6AAEC14F1ADBB0400042A806 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ACA493B1ADCD152006A077D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ACA493C1ADCD152006A077D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		6ACA493D1ADCD152006A077D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ACA493E1ADCD152006A077D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A83B9031ADD298F00BF39CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		6A83B9041ADD298F00BF39CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B1A777175CA23F7FE8D9BFB /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = restaurantLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A83B9051ADD298F00BF39CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = restaurantLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/restaurantLayout.app/restaurantLayout";
+			};
+			name = Debug;
+		};
+		6AAEC1571ADBB0400042A806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AAEC15A1ADBB0400042A806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03086BC36C98E510FBE7C5D3 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = restaurantLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6AAEC15D1ADBB0400042A806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = restaurantLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/restaurantLayout.app/restaurantLayout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AAEC12D1ADBB0400042A806 /* Build configuration list for PBXProject "restaurantLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAEC1571ADBB0400042A806 /* Release */,
+				6A83B9031ADD298F00BF39CD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AAEC1581ADBB0400042A806 /* Build configuration list for PBXNativeTarget "restaurantLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAEC15A1ADBB0400042A806 /* Release */,
+				6A83B9041ADD298F00BF39CD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AAEC15B1ADBB0400042A806 /* Build configuration list for PBXNativeTarget "restaurantLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAEC15D1ADBB0400042A806 /* Release */,
+				6A83B9051ADD298F00BF39CD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6ACA49241ADCC675006A077D /* restaurantLayout.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6ACA49251ADCC675006A077D /* restaurantLayout.xcdatamodel */,
+			);
+			currentVersion = 6ACA49251ADCC675006A077D /* restaurantLayout.xcdatamodel */;
+			path = restaurantLayout.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6AAEC12A1ADBB0400042A806 /* Project object */;
+}
